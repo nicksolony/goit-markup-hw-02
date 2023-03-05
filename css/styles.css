@@ -21,16 +21,6 @@ body {
     
 }
 
-nav,
-nav ul a:visited,
-h3 {
-    color: var(--heading-color-2);
-}
-
-nav ul a:hover,
-nav ul a:focus {
-    color: var(--filter-btn-bg-active-color);
-}
 
 .list {
     list-style: none;
@@ -81,9 +71,6 @@ nav ul a:focus {
 .logo span:focus {
     color: var(--heading-color-1);
 }
-
-
-
 
 
 
