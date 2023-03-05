@@ -1,17 +1,31 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: var(--p-font-color);
     font-size: 16px;
     line-height: 24px;
     
 }
 
+:root {
+    --filter-btn-color: #4D5AE5;
+    --filter-btn-bg-color: #F4F4FD;
+    --filter-btn-active-color: #FFFFFF;
+    --filter-btn-bg-active-color: #404BBF;
+    /* IRIS */
+    --heading-color-1: #4D5AE5; 
+    /* NAVY */
+    --heading-color-2: #2E2F42;
+    /* SLATE */
+    --p-font-color: #434455;
+    
+}
 
 .logo {
     font-size: 18px;
     font-family: "Raleway",sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 
@@ -19,12 +33,12 @@ nav,
 a:visited,
 h2,
 h3 {
-    color: #2E2F42;
+    color: var(--heading-color-2);
 }
 
 h1 {
     color: #fff;
-    background-color: #2E2F42;
+    background-color: var(--heading-color-2);
     font-size: 56px;
     line-height: 60px;
 }
@@ -39,16 +53,9 @@ h3 {
     line-height: 24px;
 }
 
-:root {
-    --filter-btn-color: #4D5AE5;
-    --filter-btn-bg-color: #F4F4FD;
-    --filter-btn-active-color: #FFFFFF;
-    --filter-btn-bg-active-color: #404BBF;
-}
-
 a:hover,
 a:focus {
-    color: #404BBF;
+    color: var(--filter-btn-bg-active-color);
 }
 
 /* hiding h2s */
@@ -59,7 +66,7 @@ a:focus {
 /* INDEX.HTML styling */
 /* adding styling to order service button */
 .order-button {
-    background-color: #4D5AE5;
+    background-color: var(--heading-color-1);
     color: #FFFFFF;
 }
 
@@ -67,7 +74,7 @@ a:focus {
 .order-button:focus
 {
     background-color: #F4F4FD;
-    color: #4D5AE5;
+    color: var(--heading-color-1);
 }
 
 
