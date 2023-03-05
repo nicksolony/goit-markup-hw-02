@@ -62,8 +62,7 @@ body {
     color: var(--heading-color-1);
 } */
 
-.logo span,
-.logo span:visited{
+.logo span {
     color:var(--heading-color-2)
 }
 
@@ -177,7 +176,7 @@ h3 {
     background-color: var(--heading-color-2);
 }
 
-.footer-logo {
+.logo .footer-logo {
     color:var(--filter-btn-bg-color)
 }
 
