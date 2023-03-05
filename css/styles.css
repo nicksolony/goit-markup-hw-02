@@ -21,20 +21,50 @@ body {
     
 }
 
+nav,
+nav ul a:visited,
+h2,
+h3 {
+    color: var(--heading-color-2);
+}
+
+nav ul a:hover,
+nav ul a:focus {
+    color: var(--filter-btn-bg-active-color);
+}
+
 .logo {
     font-size: 18px;
     font-family: "Raleway",sans-serif;
     font-weight: 800;
     text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-align: center;
+    line-height: 1.17;
+}
+
+.logo a:visited {
+    color: var(--heading-color-1);
+}
+
+.logo a {
+    color: var(--heading-color-1);
+}
+
+.logo span,
+.logo span:visited{
+    color:var(--heading-color-2)
+}
+
+.logo span:hover,
+.logo span:focus {
+    color: var(--heading-color-1);
 }
 
 
-nav,
-a:visited,
-h2,
-h3 {
-    color: var(--heading-color-2);
-}
+
+
 
 h1 {
     color: #fff;
@@ -53,10 +83,6 @@ h3 {
     line-height: 24px;
 }
 
-a:hover,
-a:focus {
-    color: var(--filter-btn-bg-active-color);
-}
 
 /* hiding h2s */
 .hidden {
