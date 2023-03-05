@@ -33,6 +33,10 @@ nav ul a:focus {
     color: var(--filter-btn-bg-active-color);
 }
 
+.list {
+    list-style: none;
+}
+
 .logo {
     font-size: 18px;
     font-family: "Raleway",sans-serif;
