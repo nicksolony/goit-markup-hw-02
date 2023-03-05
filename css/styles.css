@@ -3,6 +3,11 @@ body {
     font-family: Roboto;
 }
 
+a:hover,
+a:focus {
+    color: #404BBF;
+}
+
 /* INDEX.HTML styling */
 /* adding styling to order service button */
 .order-button {
