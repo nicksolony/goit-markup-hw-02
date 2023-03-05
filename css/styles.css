@@ -38,19 +38,24 @@ nav ul a:focus {
     font-family: "Raleway",sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    text-decoration: none;
+    /* text-decoration: none; */
     letter-spacing: 0.03em;
     text-align: center;
     line-height: 1.17;
+    color: var(--heading-color-1)
+}
+
+.link {
+    text-decoration: none;
 }
 
 .logo a:visited {
     color: var(--heading-color-1);
 }
 
-.logo a {
+/* .logo a {
     color: var(--heading-color-1);
-}
+} */
 
 .logo span,
 .logo span:visited{
