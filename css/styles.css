@@ -110,6 +110,21 @@ h3 {
     display: none;
 }
 
+
+.contact {
+    font-style: normal;
+}
+
+.email {
+    letter-spacing: 0.02em;
+    color: var(--p-font-color);
+}
+
+.email:hover,
+.email:focus {
+    color:var(--filter-btn-bg-active-color);
+}
+
 /* INDEX.HTML styling */
 /* adding styling to order service button */
 .order-button {
