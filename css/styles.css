@@ -171,6 +171,19 @@ h3 {
     color:var(--p-font-color);
 }
 
+/* section 3 - services */
+.services {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--heading-color-2);
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
 .filter button {
