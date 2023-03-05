@@ -1,11 +1,36 @@
 
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+}
+
+nav,
+a:visited,
+h2,
+h3 {
+    color: #2E2F42;
+}
+
+h1 {
+    color: #fff;
+    background-color: #2E2F42;
+}
+
+:root {
+    --filter-btn-color: #4D5AE5;
+    --filter-btn-bg-color: #F4F4FD;
+    --filter-btn-active-color: #FFFFFF;
+    --filter-btn-bg-active-color: #404BBF;
 }
 
 a:hover,
 a:focus {
     color: #404BBF;
+}
+
+/* hiding h2s */
+.hidden {
+    display: none;
 }
 
 /* INDEX.HTML styling */
@@ -26,18 +51,14 @@ a:focus {
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
 .filter button {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
+    background-color:var(--filter-btn-bg-color);
+    color: var(--filter-btn-color);
 }
 
 .filter button:hover,
 .filter button:focus
 {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--filter-btn-bg-active-color);
+    color: var(--filter-btn-active-color);
 }
 
-/* hiding h2 in filter section */
-.filter h2 {
-    display: none;
-}
