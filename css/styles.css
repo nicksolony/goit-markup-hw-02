@@ -189,6 +189,14 @@ h3 {
     background-color: var(--heading-color-2);
 }
 
+.footer span {
+    color:var(--filter-btn-bg-color)
+}
+
+.footer p {
+    color: #e7e9fc;
+}
+
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
 .filter button {
