@@ -23,7 +23,6 @@ body {
 
 nav,
 nav ul a:visited,
-h2,
 h3 {
     color: var(--heading-color-2);
 }
@@ -88,10 +87,10 @@ nav ul a:focus {
 
 
 
-h2 {
+/* h2 {
     font-size: 36px;
     line-height: 40px;
-}
+} */
 
 h3 {
     font-size: 20px;
@@ -157,6 +156,20 @@ h3 {
     color: var(--heading-color-1);
 }
 
+/* SECTION 2 - VALUES */
+.value {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing:0.02em;   
+}
+
+.value-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+    color:var(--p-font-color);
+}
 
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
