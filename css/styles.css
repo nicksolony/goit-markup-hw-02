@@ -184,6 +184,11 @@ h3 {
 
 }
 
+/* footer */
+.footer {
+    background-color: var(--heading-color-2);
+}
+
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
 .filter button {
