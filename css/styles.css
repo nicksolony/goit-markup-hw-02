@@ -1,3 +1,23 @@
+/* hiding h2 in filter section */
 .filter h2 {
     display: none;
 }
+
+body {
+    font-family: Roboto;
+}
+
+/* adding styling to order service button */
+.order-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.order-button:hover,
+.order-button:focus
+{
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+
+
