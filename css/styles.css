@@ -1,12 +1,9 @@
-/* hiding h2 in filter section */
-.filter h2 {
-    display: none;
-}
 
 body {
     font-family: Roboto;
 }
 
+/* INDEX.HTML styling */
 /* adding styling to order service button */
 .order-button {
     background-color: #4D5AE5;
@@ -21,3 +18,21 @@ body {
 }
 
 
+/* PORTFOLIO HTML STYLING */
+/* adding styling to filter buttons */
+.filter button {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+
+.filter button:hover,
+.filter button:focus
+{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+/* hiding h2 in filter section */
+.filter h2 {
+    display: none;
+}
