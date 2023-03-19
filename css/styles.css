@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--p-font-color);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     
 }
 
@@ -11,6 +11,7 @@ body {
     --filter-btn-color: #4D5AE5;
     --filter-btn-bg-color: #F4F4FD;
     --filter-btn-active-color: #FFFFFF;
+    /* OCEAN */
     --filter-btn-bg-active-color: #404BBF;
     /* IRIS */
     --heading-color-1: #4D5AE5; 
@@ -72,18 +73,6 @@ body {
 }
 
 
-
-/* h2 {
-    font-size: 36px;
-    line-height: 40px;
-} */
-
-h3 {
-    font-size: 20px;
-    line-height: 24px;
-}
-
-
 /* hiding h2s */
 .hidden {
     display: none;
@@ -138,8 +127,8 @@ h3 {
 .order-button:hover,
 .order-button:focus
 {
-    background-color: #F4F4FD;
-    color: var(--heading-color-1);
+    background-color: var(--filter-btn-bg-active-color);
+    color: #FFFFFF;
 }
 
 /* SECTION 2 - VALUES */
@@ -165,11 +154,25 @@ h3 {
     color: var(--heading-color-2);
     letter-spacing: 0.02em;
     text-align: center;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
     text-transform: capitalize;
 
 }
+
+/* section 4 - Team */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-member {
+    background-color: #FFFFFF;
+}
+
+.team-member .header-items,
+.team-member .desc {
+    text-align: center;
+}
+
 
 /* footer */
 .footer {
@@ -182,6 +185,7 @@ h3 {
 
 .footer p {
     color: #e7e9fc;
+    letter-spacing: 0.02em;
 }
 
 /* PORTFOLIO HTML STYLING */
